@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 1440px;
+    height: 90px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+.main{
+    width: 1440px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(242,120,92,0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+#vector{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 26px;
+    left: 120px;
+    color: rgba(255,255,255,1);
+}
+
+#travel-portal{
+    position: absolute;
+    width: 182px;
+    height: 31px;
+    left: 156px;
+    top: 25px;
+    font-family: 'Magra';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 42px;
+    position: absolute;
+    width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 35px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 103px;
+    height: 30px;
+    top: 25px;
+    left: 1217px;
+    border-radius: 10px;
+    padding: 10px 29px;
+    gap: 10px;
+    background-color: rgba(13, 96, 111, 1);
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.frame-out a{
+    text-decoration: none;
+    width: 43px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+    padding: 10px 30px;
+}
+
+.plan-your-trip{
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    top: 122px;
+    left: 120px;
+}
+
+.plan-your-trip .first{
+    position: absolute;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.plan-your-trip .second{
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.plan-your-trip input{
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    top: 416px;
+    left: 120px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+}
